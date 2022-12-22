@@ -1,0 +1,127 @@
+/* GLOBAL */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* MAIN */
+
+main {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    width: 396px;
+    height: 448px;
+    border-radius: 8px;
+    background-color: #CCCCCC;
+    display: flex;
+    flex-direction: column;
+}
+.left-btn, .right-btn {
+    border-radius: 8px;
+    border: 0;
+    background-color: #A19494;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* DISPLAY */
+
+.previous-display {
+    width: 396px;
+    height: 104px;
+    background-color: #817575;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 22px 34px;
+}
+.display {
+    width: 396px;
+    height: 59px;
+    background-color: #4F4A4A;
+    padding: 0px 34px;
+}
+.p-previous, .p-display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 329px;
+    height: 59px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* DIGITS */
+
+.digits-container {
+    padding: 35px 10px;
+}
+.digits {
+    width: 376px;
+    height: 180px;
+    display: flex;
+    gap: 14px;
+}
+
+/* DIGITS-LEFT */
+
+.dg-left {
+    width: 298px;
+    height: 180px;
+    display: flex;
+    gap: 14px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.left-btn {
+    width: 64px;
+    height: 39px;
+}
+
+/* DIGITS-RIGHT */
+
+.dg-right {
+    width: 64px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.delete {
+    width: 64px;
+    height: 39px;
+}
+.equal {
+    width: 64px;
+    height: 133px;
+}
+/* FOOTER */
+
+footer {
+    background-color: #CCCCCC;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+footer img {
+    width: 20px;
+    height: 20px;
+    transition: 300ms;
+}
+footer img:hover {
+    transform: rotate(-360deg);
+}
